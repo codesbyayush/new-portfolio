@@ -50,7 +50,7 @@ function ProjectDesc({ params }: { params: { slug: string } }) {
           {" "}
           Stack/Technologies
         </h3>
-        <ul className="flex flex-col gap-x-5 gap-y-4 py-2 px-3">
+        <ul className="grid lg:grid-cols-2 gap-x-5 gap-y-4 py-2 px-3">
           {val.map((value) => (
             <li key={value.id} className="flex">
               <a
