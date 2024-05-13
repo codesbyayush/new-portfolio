@@ -1,5 +1,3 @@
-import Image from "next/image";
-
 function Footer() {
   return (
     <div className="absolute botton-0 flex flex-col lg:flex-row justify-end pt-8 mt-12 pb-4  items-center dark:border-t-zinc-800 border-t-zinc-200 border-t">

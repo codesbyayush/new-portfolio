@@ -68,14 +68,14 @@ export const toolsAndTech = {
       name: "C",
       url: "https://www.typescriptlang.org/",
       icon: TbBrandCarbon,
-      info: "Query language for relational DB's",
+      info: "System's language",
     },
     {
       id: 9,
       name: "Python",
       url: "https://www.typescriptlang.org/",
       icon: TbBrandPython,
-      info: "Query language for relational DB's",
+      info: "User friendly language",
     },
   ],
   frameworks: [
@@ -98,14 +98,14 @@ export const toolsAndTech = {
       name: "Hono",
       url: "https://www.typescriptlang.org/",
       icon: SiHono,
-      info: "Schema Validation JavaScript Library",
+      info: "Modern Express",
     },
     {
       id: 13,
       name: "Express",
       url: "https://www.typescriptlang.org/",
       icon: SiExpress,
-      info: "Schema Validation JavaScript Library",
+      info: "Backend framework for Javascript",
     },
   ],
   databases: [
@@ -121,14 +121,14 @@ export const toolsAndTech = {
       name: "MongoDB",
       url: "https://www.typescriptlang.org/",
       icon: TbBrandMongodb,
-      info: "Schema Validation JavaScript Library",
+      info: "NoSQL document database",
     },
     {
       id: 23,
       name: "Neon",
       url: "https://www.typescriptlang.org/",
       icon: SiPostgresql,
-      info: "Schema Validation JavaScript Library",
+      info: "Postgres based edge database",
     },
   ],
   libraries: [
@@ -159,7 +159,7 @@ export const toolsAndTech = {
       name: "Socket.io",
       url: "https://www.typescriptlang.org/",
       icon: TbBrandSocketIo,
-      info: "Schema Validation JavaScript Library",
+      info: "Library for web-sockets",
     },
 
     {
@@ -167,17 +167,10 @@ export const toolsAndTech = {
       name: "NextAuth",
       url: "https://www.typescriptlang.org/",
       icon: TbBrandOauth,
-      info: "Schema Validation JavaScript Library",
+      info: "Authentication library",
     },
   ],
   tools: [
-    {
-      id: 41,
-      name: "Git",
-      url: "https://www.typescriptlang.org/",
-      icon: FaGitAlt,
-      info: "Schema Validation JavaScript Library",
-    },
     {
       id: 42,
       name: "Visual Studio Code",
@@ -185,14 +178,21 @@ export const toolsAndTech = {
       icon: SiVisualstudiocode,
       info: "Text Editor",
     },
-
     {
       id: 43,
       name: "IntelliJ Idea",
       url: "https://www.jetbrains.com/idea/",
       icon: SiIntellijidea,
-      info: "Java IDE",
+      info: "The premium Java IDE",
     },
+    {
+      id: 41,
+      name: "Git",
+      url: "https://www.typescriptlang.org/",
+      icon: FaGitAlt,
+      info: "Everybody knows what git is!",
+    },
+
     {
       id: 44,
       name: "Github",
