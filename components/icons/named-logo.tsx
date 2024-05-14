@@ -1,4 +1,3 @@
-
 const NamedLogo = () => (
   <svg viewBox="0 0 140 147">
     <rect

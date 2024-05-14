@@ -23,7 +23,7 @@ function ProjectCard(propvalues: props) {
         </div>
         <div className="w-full">
           <h2 className=" pb-0.5 font-medium">{name}</h2>
-          <p className="text-zinc-600 dark:text-zinc-400/95 text-sm text-wrap">
+          <p className="text-zinc-600 dark:text-zinc-400/95 text-sm text-wrap line-clamp-1">
             {desc}
           </p>
         </div>

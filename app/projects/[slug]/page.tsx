@@ -1,5 +1,4 @@
 import { toolsAndTech } from "@/lib/about";
-
 import { projects } from "@/lib/projects";
 
 export async function generateStaticParams() {
@@ -29,7 +28,7 @@ function ProjectDesc({ params }: { params: { slug: string } }) {
         <h1 className="text-3xl sm:text-4xl font-bold">{project?.name}</h1>
 
         <button className="dark:bg-zinc-800/80 dark:hover:border-zinc-700 hover:border-zinc-900 bg-white/75 border border-transparent px-4 py-2 rounded">
-          <a href="">Explore</a>
+          <a href={project?.url}>Explore</a>
         </button>
       </div>
 
@@ -38,16 +37,15 @@ function ProjectDesc({ params }: { params: { slug: string } }) {
         <h3 className="text-xl sm:text-2xl font-semibold py-3 capitalize">
           Overview
         </h3>
-        <p className="sm:text-lg text-zinc-600 dark:text-zinc-400">
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quam
-          deserunt error deleniti delectus, praesentium, dicta id, aspernatur
-          perferendis natus sint optio omnis eaque nemo voluptate veniam hic
-          aperiam maxime officiis.
+        <p
+          className="sm:text-lg text-zinc-600 dark:text-zinc-400"
+          dangerouslySetInnerHTML={{ __html: project?.about }}
+        >
+          {/* {project?.about} */}
         </p>
       </div>
       <div className="py-4">
         <h3 className="text-xl font-semibold py-3 capitalize">
-          {" "}
           Stack/Technologies
         </h3>
         <ul className="grid lg:grid-cols-2 gap-x-5 gap-y-4 py-2 px-3">
